@@ -9,7 +9,7 @@ O resultado é uma folha com timbre da clínica, dados do paciente, prescrição
 | Faixa | Conteúdo | Onde vive |
 | --- | --- | --- |
 | Cabeçalho | Logo, clínica, médica e CRM. Repete em toda página. | `header.html` |
-| Miolo | Título, paciente, prescrição e assinatura. | `index.html` |
+| Conteúdo | Título, paciente, prescrição e assinatura. | `index.html` |
 | Rodapé | Endereço, contato e página atual. Repete em toda página. | `footer.html` |
 
 A prescrição chega como HTML (`<strong>`, `<em>`, `<u>`, `<br>`). As quebras de linha do texto também são mantidas (`white-space: pre-wrap`).
