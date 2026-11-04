@@ -8,7 +8,7 @@ O resultado é uma folha com timbre da clínica, dados do paciente, prescrição
 
 | Faixa | Conteúdo | Onde vive |
 | --- | --- | --- |
-| Timbre | Logo, clínica, médica e CRM. Repete em toda página. | `header.html` |
+| Cabeçalho | Logo, clínica, médica e CRM. Repete em toda página. | `header.html` |
 | Miolo | Título, paciente, prescrição e assinatura. | `index.html` |
 | Rodapé | Endereço, contato e página atual. Repete em toda página. | `footer.html` |
 
