@@ -1,0 +1,9 @@
+[project]
+name = "golang"
+version = "0.1.0"
+description = "Venv para teste de client python"
+readme = "README.md"
+requires-python = ">=3.13.2"
+dependencies = [
+    "requests>=2.34.2",
+]

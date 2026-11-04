@@ -1,0 +1,12 @@
+services:
+  gotenberg:
+    image: gotenberg/gotenberg:8
+    ports:
+      - "3008:3000"
+    networks:
+      - local_network_docker
+
+networks:
+  local_network_docker:
+    external: true
+    name: local_network_docker
